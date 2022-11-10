@@ -48,6 +48,27 @@ body {
     width: 940px;
 }
 
+table {
+    box-shadow: 6px 6px 5px 4px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 6px 6px 5px 4px rgba(0,0,0,0.24);
+    -moz-box-shadow: 6px 6px 5px 4px rgba(0,0,0,0.24);
+}
+
+.hours th {
+    background-color: black;
+    color: white;
+}
+
+.hours tr td {
+    text-align: center;
+    
+}
+
+.hours tr:hover td {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
 .menu ul li {
     padding: 0.4rem 0;
     font-size: 18px;
