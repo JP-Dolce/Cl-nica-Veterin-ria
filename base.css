@@ -27,7 +27,7 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: #B6C4FF;
+    background-color: rgb(180 219 220);
     padding: 10px 20px 0px;
 }
 .dog-men {
@@ -54,7 +54,19 @@ table {
     -moz-box-shadow: 6px 6px 5px 4px rgba(0,0,0,0.24);
 }
 
+.hours {
+    margin-top: 30px;
+}    
+.price {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 .hours th {
+    background-color: black;
+    color: white;
+}
+.price th {
     background-color: black;
     color: white;
 }
@@ -63,8 +75,16 @@ table {
     text-align: center;
     
 }
+.price tr td {
+    text-align: center;
+    
+}
 
 .hours tr:hover td {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.price tr:hover td {
     background-color: lightgrey;
     cursor: pointer;
 }
@@ -78,7 +98,7 @@ table {
     text-transform:capitalize;
 }
 .header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(206 221 236);
     min-height: 150px;
     
 }
@@ -86,10 +106,19 @@ table {
     background-color: white;
     min-height: 300px;
     padding: 20px;
-    
+    background-color: rgb(206 221 236);
 }
+
+.content hr {
+    margin: 10px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(180 219 220);
     min-height: 150px;
     grid-column: span 2;
     display: grid;
@@ -98,7 +127,7 @@ table {
 }
 
 .content-contacts {
-    background-color: white;
+    background-color: rgb(206 221 236);
     min-height: 300px;
     padding: 20px;
     grid-column: span 2;
@@ -106,6 +135,7 @@ table {
     grid-auto-rows: auto;
     grid-auto-columns: auto;
     text-align: center;
+    
 }
 
 .contacts-p {
@@ -134,8 +164,17 @@ table {
     margin: 200px;
     margin-top: 10px;
     margin-bottom: 80px;
+    border-radius: 20px;
 }
 .form label {
     display: flex;
     padding-bottom: 10px;
+   
 }
+
+.form input {
+    border-radius: 10px;
+    border-width: 0.5px;
+    margin-bottom: 5px;
+}
+
